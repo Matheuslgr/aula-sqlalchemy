@@ -67,26 +67,26 @@ session = Session()
 #Crud - Cadastrar
 #como criar um objeto
 
-# produto1 = Produto("gpro superlight 2", 2000, 50, True)
-# session.add(produto1)
+produto1 = Produto("gpro superlight 2", 2000, 50, True)
+session.add(produto1)
 
-# produto2 = Produto("teclado magnetico", 1000, 10, True)
-# session.add(produto2)
+produto2 = Produto("teclado magnetico", 1000, 10, True)
+session.add(produto2)
 
-# produto3 = Produto("iphone 17 pro max", 7000, 5, True)
-# session.add(produto3)
+produto3 = Produto("iphone 17 pro max", 7000, 5, True)
+session.add(produto3)
 
-# produto4 = Produto("macbook", 1000, 34, True)
-# session.add(produto4)
+produto4 = Produto("macbook", 1000, 34, True)
+session.add(produto4)
 
-# produto5 = Produto("tablet", 3100, 11, True)
-# session.add(produto5)
+produto5 = Produto("tablet", 3100, 11, True)
+session.add(produto5)
 
-# produto6 = Produto("gpro superlight x", 2340, 23, True)
-# session.add(produto6)
+produto6 = Produto("gpro superlight x", 2340, 23, True)
+session.add(produto6)
 
-# Salvar no banco
-# session.commit()
+#Salvar no banco
+session.commit()
 
 # # Buscar todos os produtos - listar
 # produtos = session.query(Produto).all()
